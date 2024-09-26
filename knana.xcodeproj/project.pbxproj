@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930CE6682CA5865F0069C4EA /* knanaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE6672CA5865F0069C4EA /* knanaApp.swift */; };
+		930CE66A2CA5865F0069C4EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE6692CA5865F0069C4EA /* ContentView.swift */; };
+		930CE66C2CA586600069C4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930CE66B2CA586600069C4EA /* Assets.xcassets */; };
+		930CE66F2CA586600069C4EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930CE66E2CA586600069C4EA /* Preview Assets.xcassets */; };
+		930CE6792CA586600069C4EA /* knanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE6782CA586600069C4EA /* knanaTests.swift */; };
+		930CE6832CA586600069C4EA /* knanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE6822CA586600069C4EA /* knanaUITests.swift */; };
+		930CE6852CA586600069C4EA /* knanaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE6842CA586600069C4EA /* knanaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930CE6752CA586600069C4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930CE65C2CA5865F0069C4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930CE6632CA5865F0069C4EA;
+			remoteInfo = knana;
+		};
+		930CE67F2CA586600069C4EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930CE65C2CA5865F0069C4EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930CE6632CA5865F0069C4EA;
+			remoteInfo = knana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930CE6642CA5865F0069C4EA /* knana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930CE6672CA5865F0069C4EA /* knanaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knanaApp.swift; sourceTree = "<group>"; };
+		930CE6692CA5865F0069C4EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		930CE66B2CA586600069C4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		930CE66E2CA586600069C4EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		930CE6742CA586600069C4EA /* knanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = knanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930CE6782CA586600069C4EA /* knanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knanaTests.swift; sourceTree = "<group>"; };
+		930CE67E2CA586600069C4EA /* knanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = knanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930CE6822CA586600069C4EA /* knanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knanaUITests.swift; sourceTree = "<group>"; };
+		930CE6842CA586600069C4EA /* knanaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knanaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930CE6612CA5865F0069C4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE6712CA586600069C4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE67B2CA586600069C4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930CE65B2CA5865F0069C4EA = {
+			isa = PBXGroup;
+			children = (
+				930CE6662CA5865F0069C4EA /* knana */,
+				930CE6772CA586600069C4EA /* knanaTests */,
+				930CE6812CA586600069C4EA /* knanaUITests */,
+				930CE6652CA5865F0069C4EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930CE6652CA5865F0069C4EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930CE6642CA5865F0069C4EA /* knana.app */,
+				930CE6742CA586600069C4EA /* knanaTests.xctest */,
+				930CE67E2CA586600069C4EA /* knanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930CE6662CA5865F0069C4EA /* knana */ = {
+			isa = PBXGroup;
+			children = (
+				930CE6672CA5865F0069C4EA /* knanaApp.swift */,
+				930CE6692CA5865F0069C4EA /* ContentView.swift */,
+				930CE66B2CA586600069C4EA /* Assets.xcassets */,
+				930CE66D2CA586600069C4EA /* Preview Content */,
+			);
+			path = knana;
+			sourceTree = "<group>";
+		};
+		930CE66D2CA586600069C4EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				930CE66E2CA586600069C4EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		930CE6772CA586600069C4EA /* knanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				930CE6782CA586600069C4EA /* knanaTests.swift */,
+			);
+			path = knanaTests;
+			sourceTree = "<group>";
+		};
+		930CE6812CA586600069C4EA /* knanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				930CE6822CA586600069C4EA /* knanaUITests.swift */,
+				930CE6842CA586600069C4EA /* knanaUITestsLaunchTests.swift */,
+			);
+			path = knanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930CE6632CA5865F0069C4EA /* knana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930CE6882CA586600069C4EA /* Build configuration list for PBXNativeTarget "knana" */;
+			buildPhases = (
+				930CE6602CA5865F0069C4EA /* Sources */,
+				930CE6612CA5865F0069C4EA /* Frameworks */,
+				930CE6622CA5865F0069C4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = knana;
+			productName = knana;
+			productReference = 930CE6642CA5865F0069C4EA /* knana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		930CE6732CA586600069C4EA /* knanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930CE68B2CA586600069C4EA /* Build configuration list for PBXNativeTarget "knanaTests" */;
+			buildPhases = (
+				930CE6702CA586600069C4EA /* Sources */,
+				930CE6712CA586600069C4EA /* Frameworks */,
+				930CE6722CA586600069C4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930CE6762CA586600069C4EA /* PBXTargetDependency */,
+			);
+			name = knanaTests;
+			productName = knanaTests;
+			productReference = 930CE6742CA586600069C4EA /* knanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		930CE67D2CA586600069C4EA /* knanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930CE68E2CA586600069C4EA /* Build configuration list for PBXNativeTarget "knanaUITests" */;
+			buildPhases = (
+				930CE67A2CA586600069C4EA /* Sources */,
+				930CE67B2CA586600069C4EA /* Frameworks */,
+				930CE67C2CA586600069C4EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930CE6802CA586600069C4EA /* PBXTargetDependency */,
+			);
+			name = knanaUITests;
+			productName = knanaUITests;
+			productReference = 930CE67E2CA586600069C4EA /* knanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930CE65C2CA5865F0069C4EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					930CE6632CA5865F0069C4EA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					930CE6732CA586600069C4EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 930CE6632CA5865F0069C4EA;
+					};
+					930CE67D2CA586600069C4EA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 930CE6632CA5865F0069C4EA;
+					};
+				};
+			};
+			buildConfigurationList = 930CE65F2CA5865F0069C4EA /* Build configuration list for PBXProject "knana" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 930CE65B2CA5865F0069C4EA;
+			productRefGroup = 930CE6652CA5865F0069C4EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930CE6632CA5865F0069C4EA /* knana */,
+				930CE6732CA586600069C4EA /* knanaTests */,
+				930CE67D2CA586600069C4EA /* knanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930CE6622CA5865F0069C4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE66F2CA586600069C4EA /* Preview Assets.xcassets in Resources */,
+				930CE66C2CA586600069C4EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE6722CA586600069C4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE67C2CA586600069C4EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930CE6602CA5865F0069C4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE66A2CA5865F0069C4EA /* ContentView.swift in Sources */,
+				930CE6682CA5865F0069C4EA /* knanaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE6702CA586600069C4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE6792CA586600069C4EA /* knanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE67A2CA586600069C4EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE6852CA586600069C4EA /* knanaUITestsLaunchTests.swift in Sources */,
+				930CE6832CA586600069C4EA /* knanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930CE6762CA586600069C4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930CE6632CA5865F0069C4EA /* knana */;
+			targetProxy = 930CE6752CA586600069C4EA /* PBXContainerItemProxy */;
+		};
+		930CE6802CA586600069C4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930CE6632CA5865F0069C4EA /* knana */;
+			targetProxy = 930CE67F2CA586600069C4EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		930CE6862CA586600069C4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		930CE6872CA586600069C4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		930CE6892CA586600069C4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"knana/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFlx.knana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		930CE68A2CA586600069C4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"knana/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFlx.knana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		930CE68C2CA586600069C4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFlx.knanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/knana";
+			};
+			name = Debug;
+		};
+		930CE68D2CA586600069C4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFlx.knanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/knana";
+			};
+			name = Release;
+		};
+		930CE68F2CA586600069C4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFlx.knanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = knana;
+			};
+			name = Debug;
+		};
+		930CE6902CA586600069C4EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamFlx.knanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = knana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930CE65F2CA5865F0069C4EA /* Build configuration list for PBXProject "knana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE6862CA586600069C4EA /* Debug */,
+				930CE6872CA586600069C4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930CE6882CA586600069C4EA /* Build configuration list for PBXNativeTarget "knana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE6892CA586600069C4EA /* Debug */,
+				930CE68A2CA586600069C4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930CE68B2CA586600069C4EA /* Build configuration list for PBXNativeTarget "knanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE68C2CA586600069C4EA /* Debug */,
+				930CE68D2CA586600069C4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930CE68E2CA586600069C4EA /* Build configuration list for PBXNativeTarget "knanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE68F2CA586600069C4EA /* Debug */,
+				930CE6902CA586600069C4EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930CE65C2CA5865F0069C4EA /* Project object */;
+}
